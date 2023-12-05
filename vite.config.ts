@@ -1,6 +1,8 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import dns from "dns";
+import svgr from "vite-plugin-svgr";
+
 
 dns.setDefaultResultOrder("verbatim");
 
@@ -16,6 +18,7 @@ export default defineConfig({
     open: true,
   },
   plugins: [
+    svgr(),
     react({
       babel: {
         presets: [],
