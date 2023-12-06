@@ -57,7 +57,7 @@ export default TouristAttractionSection;
 
 const Title = styled.div<{ titleBackgroundColor: string }>`
   ${({ titleBackgroundColor }) => `
-    font-size: 3rem;
+    font-size: 5rem;
     height: 100%;
     background-color: ${titleBackgroundColor};
     padding: 1rem;
