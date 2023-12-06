@@ -64,7 +64,7 @@ const Title = styled.div<{ titleBackgroundColor: string }>`
     border-radius: 10px;
     width: fit-content;
     margin-bottom: 0.5rem;
-    margin: 1.5rem;
+    margin: 4rem;
   `}
 `;
 
@@ -76,7 +76,7 @@ const Subtitle = styled.div`
   letter-spacing: 0.125rem;
   line-height: 1.5rem;
   color: #ffffff;
-  margin: 3rem;
+  margin: 4rem;
 `;
 
 const FadeInStyled = styled(FadeIn)`
