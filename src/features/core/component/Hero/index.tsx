@@ -7,7 +7,7 @@ const Hero = React.memo(() => {
   return (
     <Container>
       <FadeIn>
-        <Title>Достопримечательности Сочи</Title>
+        <Title>Сочи</Title>
       </FadeIn>
     </Container>
   );
@@ -27,5 +27,9 @@ const Title = styled.div`
   align-items: center;
   justify-content: center;
   display: flex;
-  font-size: 100px;
+  font-size: 15rem;
+  color: black;
+  height: 100%;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke: 5px;
 `;

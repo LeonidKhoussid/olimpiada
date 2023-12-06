@@ -42,7 +42,11 @@ export default () => (
       }
       html {
         height: 100%;
+        font-family: "Alumni";
+        font-weight: 500;
+        text-transform: uppercase;
       }
+
       body {
         height: 100%;
       }
