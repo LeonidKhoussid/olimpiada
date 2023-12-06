@@ -9,7 +9,7 @@ interface ParallaxContainerProps {
 const bgImageStyle: Partial<
   Record<keyof React.CSSProperties, string | number | symbol>
 > = {
-  filter: "blur(2px) brightness(0.7)",
+  filter: "blur(2px) brightness(0.6)",
 };
 const ParallaxContainer = React.memo<ParallaxContainerProps>(
   ({ imagePath, children }) => {
