@@ -11,74 +11,47 @@ const Landing = React.memo(() => {
       <TouristAttractionSection
         slides={[
           {
-            title: "Дендрарий",
-            titleBackgroundColor: "#84863B",
-            subtitle: `Сочинский Дендрарий - своеобразный музей, в котором собраны представители флоры не только Кавказа, но и многих стран мира. Экскурсанты любуются красотами парка, узнают много нового о растительном мире Земли. Общая площадь парка "Дендрарий" более 49 га, он насчитывает около 1600 видов и форм растений мировой флоры. Заложен Дендрарий в 90-х годах XIX века известным в то время журналистом и издателем С.Н.Худековым. Растения для парка закупались в ботанических садах Крыма, Германии и Кавказа (часть из них была привезена из питомника принца Ольденбургского в Гаграх). Парк строился по типу франко-итальянских террасных парков конца XIX столетия и постоянно пополнялся новыми растениями.`,
-            backgroundImageUrl: "./assets/images/дендр.jpeg",
+            title: "FC Krasnodar Stadium/Park Galitsky",
+            titleBackgroundColor: "#678ee0",
+            subtitle: `This stadium is not just about football—it’s an architectural marvel designed with sleek, modern aesthetics. Built to FIFA standards, it offers guided tours that showcase the cutting-edge technology used in its construction, from its massive video screens to its eco-friendly design. Right next door is Galitsky Park, a sprawling green space with interactive playgrounds, art installations, and a musical fountain that lights up in the evenings. Whether you're a football fan or a casual visitor, this destination offers something for everyone.
+            Location: Ulitsa Razvedchika Leonova, 1`,
+            backgroundImageUrl: "./assets/images/fc.jpg",
             bubbleImages: [
-              "./assets/images/дендр1.jpg",
-              "./assets/images/дендр2.jpg",
+              "./assets/images/bubbleImageG1.jpg",
+              "./assets/images/bubbleImageG2.jpeg",
             ],
           },
           {
-            title: "Ривьера",
-            titleBackgroundColor: "#84863B",
-            subtitle: `«Ривьера» — парк, площадью 14 ГА в центральном районе Сочи, который считается одним из самых попсовых мест для отдыха. Здесь есть развлечения, которые подойдут и взрослым и детям.
-            По парку приятно пройтись по пальмовой аллее. Здесь можно подышать хвойным ароматом лиственниц и кедров. В период цветения Магнолий здесь особенно красиво. Некоторые приезжают в Сочи специально весной, чтобы увидеть цветущие Магнолии, которые считаются символом города-курорта. В парке построили розарий, которые дарит свой аромат на протяжении всего лета.`,
-            backgroundImageUrl: "./assets/images/Ревьера.jpeg",
+            title: "Monument to St.Catherine the Great II",
+            titleBackgroundColor: "#678ee0",
+            subtitle: `This grand monument, built in 1907 and restored after the Soviet era, celebrates the empress who gifted the Kuban region to the Cossacks. Catherine the Great is depicted holding a charter of land ownership, flanked by statues of loyal Cossack leaders. The surrounding square is a peaceful spot for relaxing or taking stunning photos with the statue and its intricate details.
+Location: Catherine Square, Krasnodar`,
+            backgroundImageUrl: "./assets/images/Catherinekrasnodar.jpg",
             bubbleImages: [
-              "./assets/images/Ревьера1.jpg",
-              "./assets/images/Ревьера2.jpg",
+              "./assets/images/Catherinekb1.jpg",
+              "./assets/images/Catherinekb2.jpg",
             ],
           },
           {
-            title: "Тисо-самшитовая роща",
-            titleBackgroundColor: "#84863B",
-            subtitle: `Тисо-самшитовая роща — самый крутой лес на территории большого Сочи. Он расположен в долине реки Хоста и добраться до него очень легко. Лес знаменит большим количеством краснокнижных растений и очень красивыми видами.
-            Роща отличается просто сумасшедшей влажностью. 70% на возвышенностях, а в ущельях достигает 90%.
-            Фауна так же богата: здесь живут медведи, косули, зубры, еноты, бобры, выдры, барсуки, лесные коты, куницы и многие другие виды. А сколько птиц здесь – не счесть.Тисо-самшитовая роща — самый крутой лес на территории большого Сочи. Он расположен в долине реки Хоста и добраться до него очень легко. Лес знаменит большим количеством краснокнижных растений и очень красивыми видами.
-            Роща отличается просто сумасшедшей влажностью. 70% на возвышенностях, а в ущельях достигает 90%.
-            Фауна так же богата: здесь живут медведи, косули, зубры, еноты, бобры, выдры, барсуки, лесные коты, куницы и многие другие виды. А сколько птиц здесь – не счесть.`,
-            backgroundImageUrl: "./assets/images/moss.jpg",
+            title: "City Botanical Garden",
+            titleBackgroundColor: "#678ee0",
+            subtitle: `This oasis in the middle of the bustling city is home to hundreds of plant species from all over the world. Visitors can enjoy themed areas such as a rose garden, a Japanese garden, and an exotic plants greenhouse. The central lake is popular for paddle boating and birdwatching. Educational tours and seasonal flower festivals are held regularly, making it a vibrant destination year-round.
+Address: Ulitsa Postovaya, 34`,
+            backgroundImageUrl: "./assets/images/Citybotanicalgarden.jpeg",
             bubbleImages: [
-              "./assets/images/moss1.jpg",
-              "./assets/images/moss2.jpg",
+              "./assets/images/bubblebg1.jpg",
+              "./assets/images/bubblebg2.jpg",
             ],
           },
           {
-            title: "Плантации чая",
-            titleBackgroundColor: "#84863B",
-            subtitle: `В Сочи, одном из курортных городов России, находится уникальная чайная плантация. Она расположена на склонах горы Ахун, в живописной местности с прекрасным климатом и почвой, и славится производством высококачественного чая.
-            На плантации чая в Сочи можно особо интересно провести время и узнать много нового о процессе производства этого чудесного напитка. Здесь можно пройти увлекательную экскурсию, во время которой посетители увидят, как выращивается и собирается чай. Также можно будет познакомиться с различными сортами чая и дегустировать их.`,
-            backgroundImageUrl: "./assets/images/чай.jpg",
+            title: "Oceanarium",
+            titleBackgroundColor: "#678ee0",
+            subtitle: `This multi-level facility offers a magical underwater experience with walk-through tunnels where sharks, stingrays, and colourful fish swim overhead. The exotarium section features rare reptiles, birds, and mammals from diverse ecosystems, making it a hit for both adults and kids. Interactive feeding sessions and educational programs are also available.
+Address: Ulitsa Tramvaynaya, 2`,
+            backgroundImageUrl: "./assets/images/oceanarium2.jpg",
             bubbleImages: [
-              "./assets/images/чай1.jpg",
-              "./assets/images/чай2.jpg",
-            ],
-          },
-        ]}
-      />
-      <TouristAttractionSection
-        slides={[
-          {
-            backgroundImageUrl: "./assets/images/пещеры.jpg",
-            titleBackgroundColor: "#84863B",
-            title: "Воронцовские пещеры",
-            subtitle:
-              "Воронцовские пещеры в Хостинском районе Сочи — это гигантский подземный дворец с каменными залами, украшенными причудливыми трещинами, «люстрами» из сталактитов и столбами сталагмитов. В комплекс входят четыре пещеры, но популярностью у туристов пользуется одна - Воронцовская. Кроме нее есть еще Долгая, Лабиринтовая и Кабаний провал. В сумме их длина достигает почти 12 км с перепадами высот 240 метров.",
-            bubbleImages: [
-              "./assets/images/пещеры1.jpg",
-              "./assets/images/пещеры2.jpg",
-            ],
-          },
-          {
-            title: "Каньон белые скалы",
-            subtitle: `«Белые скалы» — небольшой красивый участок каньона в Навалищенском ущелье реки Хоста. Волшебный сказочный колхидский лес с яркой вечно-зеленой зеленью самшита в сочетании с эффектным рельефом нависающих скал и классного каньона (именно тут стартует пожалуй самый популярный маршрут каньонинга в Сочи) заслуженно делают это место одним из самых популярных для знакомства с речными каньонами сочинского причерноморья.`,
-            backgroundImageUrl: "./assets/images/каньоны.jpg",
-            titleBackgroundColor: "#84863B",
-            bubbleImages: [
-              "./assets/images/каньоны1.jpg",
-              "./assets/images/каньоны2.jpg",
+              "./assets/images/oceanarium.jpg",
+              "./assets/images/oceanarium1.jpg",
             ],
           },
         ]}
@@ -86,36 +59,28 @@ const Landing = React.memo(() => {
       <TouristAttractionSection
         slides={[
           {
-            title: "Олимпийский парк",
+            backgroundImageUrl: "./assets/images/stanresturantbackgr.jpg",
+            titleBackgroundColor: "#678ee0",
+            title: "Stan restaurant",
             subtitle:
-              "Олимпийский парк в Сочи был построен для проведения зимних олимпийских игр 2014 года. В парке расположены множество спортивных сооружений, включая стадионы, трассы для горнолыжного спорта, ледовые арены и другие объекты. Также в парке находятся развлекательные и торговые центры, рестораны и кафе, отели и роскошные курорты. В Олимпийском парке можно заниматься спортом, посещать спортивные мероприятия, проводить время на природе и наслаждаться красивым пейзажем.",
-            backgroundImageUrl: "./assets/images/олимп.jpg",
-            titleBackgroundColor: "#84863B",
+              `The restaurant's ambiance is enriched by its interior, which showcases Cossack history through paintings, costumes, and artifacts, creating a museum-like experience for diners. The venue also boasts a spacious outdoor area with gazebos along the riverbank, offering a picturesque setting, especially during sunset.
+              renowned for its authentic Russian and Kuban cuisine. The establishment offers a diverse menu featuring traditional dishes such as borscht with garlic donuts, pike cutlets, and dumplings with cheese, providing guests with a genuine taste of the region's culinary heritage.
+              Location: Kubanskaya Naberezhnaya St., 15`,
             bubbleImages: [
-              "./assets/images/олимп1.jpg",
-              "./assets/images/олимп2.jpg",
+              "./assets/images/stanfb1.jpg",
+              "./assets/images/stanfb2.jpg",
             ],
           },
           {
-            title: "Sky Park",
-            subtitle:
-              "Sky Park – это комлекс развлекательных активностей, расположенный в городе Сочи, Россия. В парке есть множество вариантов для активного проведения времени. Одной из самых популярных активностей в Sky Park является подвесной мост. Этот мост является самым высоким и длинным мостом такого типа в мире. Гости могут пройти по нему, наслаждаясь впечатляющими панорамными видами Кавказских гор.",
-            backgroundImageUrl: "./assets/images/skypark.jpg",
-            titleBackgroundColor: "#84863B",
+            title: "Studio64 Bar&Restaurant",
+            subtitle: `Renowned for its bold and eclectic interior design, the restaurant combines elements of modern aesthetics with touches of historical elegance, featuring antique furnishings alongside contemporary accents.
+            The culinary offerings at Studio64 encompass a diverse range of cuisines, including Italian, European, and Asian dishes. The menu is thoughtfully curated to cater to a variety of palates, ensuring a memorable dining experience for all guests. 
+            Location: Krasnaya Street, 64`,
+            backgroundImageUrl: "./assets/images/studio64.jpg",
+            titleBackgroundColor: "#678ee0",
             bubbleImages: [
-              "./assets/images/skypark1.jpg",
-              "./assets/images/skypark2.jpg",
-            ],
-          },
-          {
-            title: "Сочи Парк",
-            subtitle:
-              "Сочи Парк в Сочи - это развлекательный парк, который расположен на территории олимпийского парка в Имеретинской низменности. В парке можно найти разнообразные аттракционы для детей и взрослых, такие как горки, карусели, американские горки и другие. Есть также множество ресторанов, кафе и магазинов, где можно перекусить и приобрести сувениры. В парке проводятся также регулярные шоу и развлекательные мероприятия для посетителей. Сочи Парк является популярным местом для отдыха и развлечений, привлекающим как местных жителей, так и туристов.            ",
-            backgroundImageUrl: "./assets/images/sochipark.jpg",
-            titleBackgroundColor: "#84863B",
-            bubbleImages: [
-              "./assets/images/sochipark1.jpg",
-              "./assets/images/sochipark2.jpg",
+              "./assets/images/studio64b1.jpg",
+              "./assets/images/studio64b2.jpg",
             ],
           },
         ]}
@@ -123,14 +88,51 @@ const Landing = React.memo(() => {
       <TouristAttractionSection
         slides={[
           {
-            title: "Красная Поляна",
+            title: "Rimar",
             subtitle:
-              "Красная Поляна находится в Сочи, Россия, и является одним из популярных горнолыжных курортов в стране. Здесь можно заняться различными видами активного отдыха, в том числе горным лыжным спортом, сноубордом, прогулками на снегоходах и верховой ездой. В Красной Поляне также есть роскошные отели, спа-салоны, рестораны и развлекательные центры, где можно расслабиться после активных занятий на склонах. Красная Поляна привлекает как опытных горнолыжников, так и новичков, благодаря своим красивым пейзажам и разнообразным развлечениям.",
-            backgroundImageUrl: "./assets/images/redpol.jpg",
+              "Rimar Hotel Krasnodar is a 5-star establishment situated near the administrative and business center of the city, overlooking the Kuban River. The hotel offers elegant and spacious rooms decorated in a classical Italian style, each equipped with LED TVs featuring interactive television systems. Guests are provided with complimentary bathrobes and slippers, and free Wi-Fi is available throughout the property. The hotel features multiple on-site restaurants serving Mediterranean and European cuisine, a wellness and spa center, an indoor swimming pool, and a fitness center. The Rimar Hotel is conveniently located near cultural attractions such as the Alexander Nevskiy Cathedral and the Krasnodar Philharmonic Concert Hall. Location: Naberezhnaya Street, 44/46",
+            backgroundImageUrl: "./assets/images/Rimar.jpg",
+            titleBackgroundColor: "#678ee0",
+            bubbleImages: [
+              "./assets/images/Rimarb1.jpg",
+              "./assets/images/Rimarb2.jpg",
+            ],
+          },
+          {
+            title: "Troy",
+            subtitle:
+              "Troy Hotel offers a blend of comfort and luxury. The hotel provides a variety of rooms and suites, each designed with modern furnishings and equipped with amenities such as air conditioning, flat-screen TVs, and minibars. Guests can enjoy dining at the on-site restaurant, which serves a selection of European and Russian dishes. Additional facilities include a spa center, fitness center, and an indoor swimming pool. The hotel is located within a short distance from the city center, making it convenient for guests to explore local attractions. Location: 1 Maya, 131,",
+            backgroundImageUrl: "./assets/images/Troy.jpg",
+            titleBackgroundColor: "#678ee0",
+            bubbleImages: [
+              "./assets/images/Troyb1.jpg",
+              "./assets/images/Troyb2.jpg",
+            ],
+          },
+          {
+            title: "The ROMANOFF by stellar hotels",
+            subtitle:
+              "The Romanoff by Stellar Hotels is a boutique hotel located in the heart of Krasnodar. The hotel offers well-appointed rooms featuring modern décor, comfortable bedding, and essential amenities to ensure a pleasant stay. Guests can dine at the hotel's restaurant, which offers a variety of international and local cuisines. The hotel's central location provides easy access to major attractions, shopping centers, and entertainment venues in Krasnodar. Location: Krasnaya, 16/1 ",
+            backgroundImageUrl: "./assets/images/Romanoff.jpg",
+            titleBackgroundColor: "#678ee0",
+            bubbleImages: [
+              "./assets/images/romanoffb1.jpg",
+              "./assets/images/romanoffb2.jpg",
+            ],
+          },
+        ]}
+      />
+      <TouristAttractionSection
+        slides={[
+          {
+            title: "Practical Tips",
+            subtitle:
+              "Language: Russian is the primary language; English is not widely spoken, so a phrasebook or translation app is helpful.Currency: Russian Ruble (RUB). debit cards are widely accepted,but since they're transitioning into the use of mir processing networks carry cash just in case. Transportation: Krasnodar has a well-connected public transport system of trams, buses, and taxis. Yandex.Taxi is a reliable ride-hailing service. Best Time to Visit: Spring and autumn offer pleasant weather for exploring the city.",
+            backgroundImageUrl: "./assets/images/PT.jpg",
             titleBackgroundColor: "#4D5E75",
             bubbleImages: [
-              "./assets/images/красная1.jpg",
-              "./assets/images/красная2.jpg",
+              "./assets/images/PTb1.jpg",
+              "./assets/images/PTb2.jpg",
             ],
           },
         ]}

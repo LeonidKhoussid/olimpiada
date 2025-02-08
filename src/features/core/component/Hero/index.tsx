@@ -8,8 +8,9 @@ const Hero = React.memo(() => {
     <Container>
       <Background />
       <FadeIn>
-        <Title>Достопримечательности города</Title>
-        <Title large={true}>Сочи</Title>
+        <Title>Online GuideBook for</Title>
+        <Title large={true}>Krasnodar</Title>
+        <Title>↓ Scroll Down To Explore ↓</Title>
       </FadeIn>
     </Container>
   );
@@ -30,7 +31,7 @@ const Title = styled.div<{ large?: boolean }>`
     position: relative;
     z-index: 5;
     width: 100%;
-    font-style: ${large ? "normal" : "italic"};
+    font-style:  "normal";
     ${
       !large
         ? `
